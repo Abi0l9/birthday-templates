@@ -236,7 +236,7 @@ const Main = () => {
                   id="celebrant"
                   value={input.celebrant}
                   onChange={handleInputs}
-                  className="w-full p-2 rounded-md border-[1px] border-teal-200 focus:outline-none focus:border-teal-700"
+                  className="w-full md:w-3/4 p-2 rounded-md border-[1px] border-teal-200 focus:outline-none focus:border-teal-700"
                 />
               </div>
 
@@ -249,7 +249,7 @@ const Main = () => {
                   id="celebrantPost"
                   value={input.celebrantPost}
                   onChange={handleInputs}
-                  className="w-full p-2 rounded-md border-[1px] border-teal-200 focus:outline-none focus:border-teal-700"
+                  className="w-full md:w-3/4 p-2 rounded-md border-[1px] border-teal-200 focus:outline-none focus:border-teal-700"
                 />
               </div>
 
@@ -261,7 +261,7 @@ const Main = () => {
                   onChange={handleInputs}
                   name="gender"
                   id="gender"
-                  className="border-b-2 focus:outline-none w-full appearance-none"
+                  className="border-b-2 focus:outline-none w-full md:w-3/4 appearance-none"
                 >
                   <option value="">Choose Celebrant{"'"}s Gender</option>
                   <option value="Male">Male</option>
@@ -323,7 +323,7 @@ const Main = () => {
                   id="announcer"
                   value={input.announcer}
                   onChange={handleInputs}
-                  className="w-full p-2 rounded-md border-[1px] border-teal-200 focus:outline-none focus:border-teal-700"
+                  className="w-full md:w-3/4 p-2 rounded-md border-[1px] border-teal-200 focus:outline-none focus:border-teal-700"
                 />
               </div>
             </div>{" "}

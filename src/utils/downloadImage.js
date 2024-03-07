@@ -12,12 +12,12 @@ const downloadImage = async (componentRef, celebrantName) => {
   });
 
   //convert canvas to data URL
-  const dataURL = canvas.toDataURL("image/jpg");
+  const dataURL = canvas.toDataURL("image/png");
 
   //create download link
   const link = document.createElement("a");
   link.href = dataURL;
-  link.download = `${celebrantName?.split(" ")?.join("-")}-birthday.jpg`;
+  link.download = `${celebrantName?.split(" ")?.join("-")}-birthday.png`;
 
   link.click();
 
