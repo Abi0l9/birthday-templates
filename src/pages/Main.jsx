@@ -141,7 +141,9 @@ const Main = () => {
             </div>
           </div>
           <div className="w-full text-white z-40 md:-mt-4 text-center md:text-center">
-            <p className="font-bold">{input.announcer} - </p>
+            <p className="font-bold text-cyan-500 font-quicksand">
+              {input.announcer} -{" "}
+            </p>
           </div>
         </div>
       </div>
