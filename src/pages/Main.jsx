@@ -335,7 +335,7 @@ const Main = () => {
             value="Confirm Changes"
             onClick={openModal}
             disabled={isOpen}
-            className="p-2 bg-slate-700 active:bg-slate-800 text-gray-100 text-xl rounded-md w-2/4 md:2/5"
+            className="p-2 cursor-pointer bg-slate-700 active:bg-slate-800 text-gray-100 text-xl rounded-md w-2/4 md:2/5"
           />
         </div>
       </div>
